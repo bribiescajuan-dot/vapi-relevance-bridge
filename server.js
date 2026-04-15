@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 const REGION = 'bcbe5a';
-const AUTH = '77bfc173-f9f4-4e2d-ab24-ccba367741de:TU_API_KEY_AQUI';
+const AUTH = '77bfc173-f9f4-4e2d-ab24-ccba367741de:sk-YTZmM2JhZWYtNzZkNy00NWJlLTkwNzgtNmQ3YjAwZjgwMjg5';
 const AGENT_ID = '3f5009a7-11d1-43f3-8ad8-4c8702c19110';
 const BASE_URL = `https://api-${REGION}.stack.tryrelevance.com/latest`;
 

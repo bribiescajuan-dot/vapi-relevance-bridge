@@ -38,8 +38,8 @@ app.post('/chat/completions', async (req, res) => {
   const jobId = job.job_info?.job_id;
 
   let answer = 'Dame un momento...';
-  for (let i = 0; i < 30; i++) {
-    await new Promise(r => setTimeout(r, 1500));
+  for (let i = 0; i < 15; i++) {
+    await new Promise(r => setTimeout(r, 2000));
     const pollRes = await fetch(
       `${BASE_URL}/studios/${studioId}/async_poll/${jobId}`,
       { headers: { 'Authorization': AUTH } }
